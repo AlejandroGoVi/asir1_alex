@@ -1,6 +1,15 @@
 <html>
-<tittle> Alejandro Gomez Villa  </tittle>
+
 <body>
-<p><a href="http://192.168.0.114/asir1-cc/asir1.html">Carlos Campo</a></p>
+<p><a href="http://192.168.0.57/asir1_mario/asir1_1.php">Mario (izquierda)</a></p>
+<p> Alumno Alejandro Gomez
+<p><a href="http://192.168.0.114/asir1-cc/asir1.html">Carlos Campo (derecha)</a></p>
 </body>
 </html>
+
+<?php
+$f=fopen('visitas.txt','a');
+fwrite ($f, date('Y-m-d H:i '));
+fwrite($f,$_SERVER['REMOTE_ADDR']."\r\n");
+fclose($f)
+?>
