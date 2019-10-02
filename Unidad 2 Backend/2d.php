@@ -2,14 +2,14 @@
 function calcula(){
 	//numeros 
 		$num1=5;
-		$num2=3;
+		$num2=0;
 		
 	//operaciones
 		$suma=$num1+$num2;
 		$resta=$num1-$num2;
 		$multi=$num1*$num2;
-		$divi=$num1/$num2;
-
+		if ($num2 != 0) $divi=$num1/$num2;
+	
 	//Informacion en el navegador
 	$r=null;
 
@@ -27,7 +27,7 @@ function calcula(){
 
 	$r=$r. "<br/>";
 	$r=$r. "div:";
-	$r=$r. " divi de ".$num1." entre ".$num2." = " .$divi;
+	if ($num2 != 0) $r=$r. " divi de ".$num1." entre ".$num2." = " .$divi;
 	return $r;
 }
 $txt=calcula();
@@ -41,5 +41,3 @@ echo $txt;
 
 
 ?>
-
-
