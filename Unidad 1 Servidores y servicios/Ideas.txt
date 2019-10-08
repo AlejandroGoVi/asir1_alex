@@ -1,0 +1,9 @@
+-Hacer una pagina que recopile fechas y las organize segun el año y mes de nacimiento.
+
+-Hacer una pagina para ver quien es el mas mayor y pequeño de clase.
+
+-Poder hacer una pagina que calcule cuanto tiempo falta para el viernes.
+
+-Conseguir que los demas den like o dislike a una foto subida en tu pagina y ver correo de quien dio like y dislike.
+
+-Crear una pagina con un estilo bonito al gusto de cadauno.
