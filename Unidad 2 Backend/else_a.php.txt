@@ -1,0 +1,21 @@
+<?php
+function nota($s) {
+	
+	$r=null;
+	if($s>=5) {
+		$r=('apto');
+		
+	}
+	else {
+		$r=('no apto');
+	}
+	
+	return $r;
+	
+	
+	
+}
+
+echo nota(8);
+
+?>
