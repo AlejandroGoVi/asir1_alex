@@ -11,5 +11,10 @@
 <p><a href="https://en.wikipedia.org/wiki/The_Death_of_Julius_Caesar">Death of Julius Cesar</a></p>
  - 1804 and 1805 - 
 <p><a href="https://en.wikipedia.org/wiki/Vincenzo_Camuccini">Vincenzo Camuccini</a></p>
+
+<h3><b>Coming</b><u>soon</u></h3>
+<h1 style="color:blue;">Wow esto esta azul</h1>
+<center>Asi de centrado quiero estar yo</center>
+<font size="60">Igual esto es mucho</font>
 </body>
 </html>
