@@ -16,7 +16,7 @@
 <font size="60" color="blue">Wow esto esta azul</font>
 <center>Asi de centrado quiero estar yo</center>
 <font size="60">Igual esto es mucho</font>
- Texto de ejem<br>
+ Texto de ejem<br/>
  plo 
  <p>hcewopvweubwepbncqweipcbnksdcbnskkehicvndbvisdobvisbvisdobvsidvsvisdbvisdbv+</p>
  <p>jvbhwjbhjvbhwiviwebvhiwebhviwbvweibvibweiviwebvweibvwibwiebviwebwioburq4890ytq4utnmuiq4utnm uivnunptuqqqqbtu ibviq4uqvvqibvuqiu</p>
