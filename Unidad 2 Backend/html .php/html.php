@@ -53,7 +53,7 @@
   <input type="text" name="firstname"><br>
   Apellidos:<br>
   <input type="text" name="lastname">
-  <p><input type="submit" value="Submit"></p>
+  <input type="submit" value="Submit">
 </form>
 </body>
 </html>
