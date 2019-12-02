@@ -54,6 +54,6 @@
   Apellidos:<br/>
   <input type="text" name="lastname"/>
   <input type="submit" value="Submit"/>
-</form/>
+<form/>
 <body/>
-</html>
+<html/>
