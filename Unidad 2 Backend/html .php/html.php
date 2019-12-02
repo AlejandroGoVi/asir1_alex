@@ -49,11 +49,11 @@
   </tr>
 </table>
   <form>
-  Nombre:<br>
-  <input type="text" name="firstname"><br>
-  Apellidos:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
+  Nombre:<br/>
+  <input type="text" name="firstname"><br/>
+  Apellidos:<br/>
+  <input type="text" name="lastname"/>
+  <input type="submit" value="Submit"/>
 </form>
 </body>
 </html>
