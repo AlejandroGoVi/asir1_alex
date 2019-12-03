@@ -68,7 +68,10 @@ $r=$r.$a[$n-1]['Dias']."<br>";
 $r=$r.$a[$n-1]['Estacion']."<br>";
 return $r;
 }
-echo meses(5)."<br>";
+echo meses(5).Mayo"<br>";
+echo meses(7).Julio"<br>";
+echo meses(0).Fallo"<br>";
+echo meses(13).Fallo"<br>";
 
 
 
