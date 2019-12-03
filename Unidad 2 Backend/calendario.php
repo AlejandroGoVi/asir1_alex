@@ -1,71 +1,76 @@
 <?php
-function meses($n){
-$a=[
-	[
-		'nombre'=>'Enero',
-		'dias'=>'31',
-		'estacion'=>'Invierno',
-	],
-	[
-	'nombre'=>'Febrero',
-		'dias'=>'28',
-		'estacion'=>'Invierno',
-	],
-	[
-	'nombre'=>'Marzo',
-		'dias'=>'31',
-		'estacion'=>'Invierno/Primavera',
-	],
-	[
-	'nombre'=>'Abril',
-		'dias'=>'30',
-		'estacion'=>'Primavera',
-	],
-	[
-	'nombre'=>'Mayo',
-		'dias'=>'31',
-		'estacion'=>'Primavera',
-	],
-	[
-	'nombre'=>'Junio',
-		'dias'=>'30',
-		'estacion'=>'Primavera/Verano',
-	],
-	[
-	'nombre'=>'Julio',
-		'dias'=>'31',
-		'estacion'=>'Verano',
-	],
-	[
-	'nombre'=>'Agosto',
-		'dias'=>'31',
-		'estacion'=>'Verano',
-	],
-	[
-	'nombre'=>'Septiembre',
-		'dias'=>'30',
-		'estacion'=>'Verano/Otoño',
-	],
-	[
-	'nombre'=>'Octubre',
-		'dias'=>'31',
-		'estacion'=>'Otoño',
-	],
-	[
-	'nombre'=>'Noviembre',
-		'dias'=>'30',
-		'estacion'=>'Otoño',
-	],
-	[
-	'nombre'=>'Diciembre',
-		'dias'=>'31',
-		'estacion'=>'Otoño',
-	],
+function Mes($n){
+		    $a=[
+[
+'Nombre'=>'Enero',
+	'Dias'=>'31',
+	'Estacion'=>'Invierno',
+],
+[
+'Nombre'=>'Febrero',
+	'Dias'=>'28',
+'Estacion'=>'Invierno',
+],
+[
+'Nombre'=>'Marzo',
+	'Dias'=>'31',
+'Estacion'=>'Invierno',
+],
+[
+'Nombre'=>'Abril',
+	'Dias'=>'30',
+'Estacion'=>'Primavera',
+],
+[
+'Nombre'=>'Mayo',
+	'Dias'=>'31',
+'Estacion'=>'Primavera',
+],
+[
+'Nombre'=>'Junio',
+	'Dias'=>'30',
+'Estacion'=>'Verano',
+],
+[
+'Nombre'=>'Julio',
+	'Dias'=>'31',
+'Estacion'=>'Verano',
+],
+[
+'Nombre'=>'Agosto',
+	'Dias'=>'31',
+'Estacion'=>'Verano',
+],
+[
+'Nombre'=>'Septiembre',
+	'Dias'=>'30',
+'Estacion'=>'Otoño',
+],
+[
+'Nombre'=>'Octubre',
+	'Dias'=>'31',
+'Estacion'=>'Otoño',
+],
+[
+'Nombre'=>'Noviembre',
+	'Dias'=>'30',
+'Estacion'=>'Invierno',
+],
+[
+'Nombre'=>'Diciembre',
+	'Dias'=>'31',
+'Estacion'=>'Invierno',
+],
 ];
 $r=null;
-$r=$r.$a[$n-1]['nombre']."<br>";
-$r=$r.$a[$n-1]['dias']."<br>";
-$r=$r.$a[$n-1]['estacion']."<br>";
+$r=$r.$a[$n-1]['Nombre']."<br>";
+$r=$r.$a[$n-1]['Dias']."<br>";
+$r=$r.$a[$n-1]['Estacion']."<br>";
 return $r;
 }
-echo meses(10);
+echo meses(5)."<br>";
+
+
+
+
+?>
