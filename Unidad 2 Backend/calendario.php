@@ -1,6 +1,6 @@
 <?php
 function Mes($n){
-		    $a=[
+  $a=[
 	[
 		'Nombre'=>'Enero',
 		'Dias'=>'31',
@@ -67,6 +67,12 @@ $r=$r.$a[$n-1]['Nombre']."<br>";
 $r=$r.$a[$n-1]['Dias']."<br>";
 $r=$r.$a[$n-1]['Estacion']."<br>";
 return $r;
+if ($n=<0){
+	$r=Fallo;
+}
+if ($n=>12){
+	$r=Fallo;
+}
 }
 echo meses(5)."Mayo.<br>";
 echo meses(7)."Julio.<br>";
