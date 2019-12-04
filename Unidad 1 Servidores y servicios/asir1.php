@@ -12,7 +12,7 @@ echo fwrite($file,$ip."\r\n");
 fclose($file);
 ?>
 
-<form action="visitas.txt" method="post">
+<form action="Datos.php" method="post">
 	Nombre: <input type="text" name="nombre"><br>
 	Email:  <input type="email" name="email"><br>
 	<input type="submit" value="Enviar">
