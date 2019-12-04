@@ -1,9 +1,9 @@
 <html>
 <body>
-Alejandro Gómez Villa (Mi ip)
-<a href=”192.168.0.57”></a>
-Bruno 
-<a href”192.168.0.55”></a>
+
+<a href=”192.168.0.57”>Alejandro Gómez Villa (Mi ip) </a>
+<p> y </p>
+<a href=”192.168.0.55”>Bruno (Compañero)</a>
 
 <?php
 $file = fopen("visitas.txt","a");
