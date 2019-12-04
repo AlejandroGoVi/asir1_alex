@@ -62,16 +62,17 @@ function Mes($n){
 		'Estacion'=>'Invierno',
 	],
 	];
-$r=null;
-$r=$r.$a[$n-1]['Nombre']."<br>";
-$r=$r.$a[$n-1]['Dias']."<br>";
-$r=$r.$a[$n-1]['Estacion']."<br>";
-return $r;
-if ($n=<0){
-	$r=Fallo;
+	$r=null;
+	$r=$r.$a[$n-1]['Nombre']."<br>";
+	$r=$r.$a[$n-1]['Dias']."<br>";
+	$r=$r.$a[$n-1]['Estacion']."<br>";
+
+		return $r;
+		if ($n=<0){
+		$r=Fallo;
 }
-if ($n=>12){
-	$r=Fallo;
+		if ($n=>12){
+		$r=Fallo;
 }
 }
 echo meses(5)."Mayo.<br>";
