@@ -146,7 +146,7 @@ if(0){	// (07) Provincias con el mismo nombre que su comunidad autónoma
 
 if(0){	// (08) Provincias que contienen el diptongo 'ue'
 	foreach($provincias as $p)
-		if(strstr($p['provincia'],'ue'))
+		if(strstr($p['provincia'],'ue'))															
 			echo $p['provincia'].'<br/>';
 }
 
@@ -158,7 +158,7 @@ if(0){	// (09) Provincias que empiezan por A
 
 if(0){	// (17) ¿Qué provincias están en autonomías con nombre compuesto?
 	foreach($provincias as $p)
-		if(strstr($p['autonomia'],' '))
+		if(strstr($p['autonomia'],' '))																		// ¿Para que sirve ese espacio?
 			echo $p['provincia'].'<br/>';
 }
 
@@ -178,7 +178,7 @@ if(1){	// (51) Muestra las provincias de Galicia, indicando si es Grande, Median
 	foreach($provincias as $p)
 		if($p['autonomia']=='Galicia'){
 			$r='Pequeña';
-			if($p['poblacion']>5e5) $r='Mediana';
+			if($p['poblacion']>5e5) $r='Mediana';											// ¿Es totalmente necesario poner la poblacion asi?
 			if($p['poblacion']>1e6) $r='Grande';
 			echo $p['provincia'].' '.$r.'<br/>';
 		}
